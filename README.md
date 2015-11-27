@@ -1,6 +1,7 @@
 # sass-rem
 
 A plugin for [sass](http://sass-lang.com/) that convent design size to rem which makes responsive develop easier.
+
 A Pure css responsive adaptation solution.
 
 
@@ -11,7 +12,9 @@ Download the files (https://github.com/hodor-cn/sass-rem).
 ## Usage
 
 Edit `_rem-config.scss` to fit your design size and target size.
+
 Import `_rem.scss` to any scss file if you need use the `rem` function.
+
 Import `_rem-reset.scss` once.
 
 ## Example

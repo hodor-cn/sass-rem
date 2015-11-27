@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/hodor-cn/sass-rem/issues"
   },
-  "license": "MIT",
+  "license": "ISC",
   "author": "Hodor Wang <devilwcw@gmail.com>",
   "repository": {
     "type": "git",
