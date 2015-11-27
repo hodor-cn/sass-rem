@@ -1,0 +1,20 @@
+{
+  "name": "sass-rem",
+  "version": "1.0.0",
+  "description": "A Pure css responsive adaptation solution.",
+  "keywords": [
+    "sass",
+    "rem",
+    "responsive"
+  ],
+  "homepage": "https://github.com/hodor-cn/sass-rem",
+  "bugs": {
+    "url": "https://github.com/hodor-cn/sass-rem/issues"
+  },
+  "license": "MIT",
+  "author": "Hodor Wang <devilwcw@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hodor-cn/sass-rem.git"
+  }
+}
