@@ -14,8 +14,9 @@ html {
 
 
 @while $i > $min-width {
-    $i: $i - $step;
-    @media  (min-width: $i + px) and (max-width: ($i + $step) + px) {
+    $end: $i + $step -1;
+    $i: if($i - $step < $min-width, $min-width, $i - $step);
+    @media  (min-width: $i + px) and (max-width: $end + px) {
         html {
             font-size: $base-size * ($i/$base-width) + px;
         }
@@ -28,8 +29,9 @@ html {
 }
 $i: $base-width;
 @while $i < $max-width {
-    $i: $i + $step;
-    @media  (min-width: ($i - $step) + px) and (max-width: $i + px) {
+    $start: $i - $step + 1;
+    $i: if($i + $step > $max-width, $max-width, $i + $step);
+    @media  (min-width: ($i - $step + 1) + px) and (max-width: $i + px) {
         html {
             font-size: $base-size * ($i/$base-width) + px;
         }
@@ -43,5 +45,5 @@ $i: $base-width;
 
 
 body {
-    font-size: rem(32);
+    font-size: rEm(32);
 }
